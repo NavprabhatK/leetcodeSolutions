@@ -25,6 +25,7 @@ public class ReverseString {
         String outputStr2 = recursiveMethod(input);
         System.out.println(outputStr2);
 
+        scanner.close();
     }
 
     public static  String recursiveMethod(String str){
