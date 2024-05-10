@@ -22,5 +22,6 @@ public class RemoveWhiteSpacesString {
             }
         }
         System.out.println("String without white space another way is : "+replacedString2);
+        scanner.close();
     }
 }
